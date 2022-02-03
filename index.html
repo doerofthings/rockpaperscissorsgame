@@ -3,11 +3,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fa4eeb86b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/app.js" defer></script>
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <h1>Rock Paper Scissors Game</h1>
+    <div class="container">
+      <h1>Rock Paper Scissors Game</h1>
+      <div id="btn-container"></div>
+
+      <div class="score-container">
+        <ul>
+          <li class="players-score"></li>
+          <li class="player-selection-container">
+            <i class="fas fa-user"></i>
+          </li>
+        </ul>
+        <div class="winner"></div>
+
+        <ul>
+          <li class="computer-score"></li>
+          <li class="computer-selection-container">
+            <i class="fas fa-laptop-code"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="game-btn-container"></div>
+      <div class="game-score-container">
+        <p class="score-num"></p>
+      </div>
+      <div class="new-game"></div>
+    </div>
   </body>
 </html>

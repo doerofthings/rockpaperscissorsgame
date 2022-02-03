@@ -1,0 +1,88 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #0f1a20;
+}
+.container {
+  padding: 100px 50px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+#btn-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 100px 0 0 0;
+}
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+li {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+a.button {
+  padding: 20px 60px;
+  min-width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: white;
+  color: #0f1a20;
+  font-size: 24px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.score-container {
+  padding: 100px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+p {
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.show-modal {
+  padding: 60px 80px;
+  border-radius: 5px;
+  background-color: white;
+}
+.winner-message {
+  color: #0f1a20;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.gone {
+  display: none;
+}
+.new-game a {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  background: #6e6a6f;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
