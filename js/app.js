@@ -100,7 +100,7 @@ let roundOne = (playerSelection, computerSelection) => {
         document.querySelector(".winner").textContent = '';
         playerSelectionContainer.innerHTML = " ";
         computerSelectionContainer.innerHTML = " ";
-        playerWinsOutput = winnerContainer.appendChild(computerWins);
+        playerWinsOutput = winnerContainer.appendChild(playerWins);
         playerWinsOutput
         playerSelectionContainer.innerHTML = `<i class="fas fa-user"></i> ${playerSelection}`
         computerSelectionContainer.innerHTML = `<i class="fas fa-laptop-code"></i> ${computerSelection}`
